@@ -12,6 +12,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+
 
 
 
@@ -30,7 +32,8 @@ import { FormsModule } from '@angular/forms';
     MatFormFieldModule,
     MatInputModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    MatSnackBarModule
     
   ],
   providers: [],
